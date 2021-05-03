@@ -1,9 +1,9 @@
 import styles from './index.module.css';
 
-export const EOM = ({employee}) => {
+const EOM = ({employee}) => {
     return (
         <div className='page-container'>
-            <main className={styles.main}>
+            <main className='main'>
                 <h1>Employee of the Month</h1>
                 <div className={styles.employee}>
                     <h3>{employee.name}</h3>
