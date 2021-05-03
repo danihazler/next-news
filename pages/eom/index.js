@@ -1,4 +1,4 @@
-import styles from '../styles/Eom.module.css';
+import styles from './index.module.css';
 
 export const EOM = ({employee}) => {
     return (

@@ -1,0 +1,17 @@
+.main {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 25px;
+    transition: color .3s;
+}
+
+.main a:hover {
+    color: rgb(168, 168, 168);
+}
