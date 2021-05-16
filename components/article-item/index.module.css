@@ -1,0 +1,26 @@
+.article {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    list-style: none;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.article a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.article h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.article img {
+    max-height: 282px;
+    width: 100%;
+}
+

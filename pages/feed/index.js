@@ -1,15 +1,9 @@
-import styles from './index.module.css';
+import { ArticleList } from "../../components/article-list";
 
 const Feed = ({articles}) => { 
     return (
         <main className='main'>
-            {articles.map((article, index) => (
-                <div key={index} className={styles.post}>
-                    <h1 onClick={() => (window.location.href = article.url)}>{article.title}</h1>
-                    <p>{article.description}</p>
-                    {!!article.urlToImage && <img src={article.urlToImage} alt="" />}
-                </div>
-            ))}
+            <ArticleList articles={articles} />
         </main>
     );
 };
