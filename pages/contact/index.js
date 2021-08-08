@@ -1,10 +1,8 @@
-import styles from './index.module.css';
-
 const Contact = () => {
     return (
         <div className='page-container'>
             <main className='main'>
-                <p className={styles.description}>
+                <p>
                     Testing how Netlify collects data.
                 </p>
 
